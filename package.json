@@ -1,0 +1,14 @@
+{
+  "name": "custom-grid",
+  "version": "1.0.0",
+  "description": "Custom grid using float",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonas Schmedtmann",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
