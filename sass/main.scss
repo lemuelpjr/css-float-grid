@@ -1,4 +1,11 @@
+// COLORS
 $color-bg: #eee;
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
 
 *, *::after, *::before {
   margin: 0;
@@ -22,7 +29,12 @@ body {
 }
 
 .row {
-  max-width: 114rem;
+  max-width: $grid-width;
   background-color: $color-bg;
   margin: 0 auto;
+
+  // Applies declarations to all elements except the last one
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
 }
