@@ -1,0 +1,28 @@
+$color-bg: #eee;
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.row {
+  max-width: 114rem;
+  background-color: $color-bg;
+  margin: 0 auto;
+}
