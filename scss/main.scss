@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
 // COLORS
+$color-primary: dodgerblue;
 $color-bg: #ddd;
-$color-col: dodgerblue;
 $color-text: #fff;
 
 // GRID
@@ -29,6 +31,7 @@ html {
 }
 
 body {
+  color: $color-text;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.6rem;
   text-align: center;
@@ -36,7 +39,14 @@ body {
 }
 
 .header {
-  margin: 4rem auto;
+  background-color: $color-primary;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.4rem;
+  padding: 4rem;
+}
+
+.grid-test {
+  padding: 10rem 0;
 }
 
 .row {
@@ -54,7 +64,6 @@ body {
   // Selects all the classes that start with "col-"
   [class^="col-"] {
     background-color: $color-col;
-    color: $color-text;
     font-weight: bold;
     padding: 2rem;
     float: left;
